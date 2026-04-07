@@ -10,8 +10,7 @@ function login() {
 
     if (u === correctUsername && p === correctPassword) {
         alert("✅ Login Successful! Welcome, Sancho II!");
-        // You can redirect or do something else here later
-        // window.location.href = "dashboard.html"; // example
+
     } else {
         alert("❌ Incorrect username or password. Please try again.");
     }
