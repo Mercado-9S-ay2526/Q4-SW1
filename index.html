@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q4 Seatwork 1</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+    
+    <div class="container">
+        <h3>Account Login</h3>
+
+    <details ontoggle="alert('TEST CREDENTIALS: \nUser: Sancho II \nPass: egglover54321')">
+    <summary class="btn btn-sm btn-primary mb-3">View Login Help</summary>
+    <p class="small text-muted">Enter the credentials shown in the alert box.</p>
+    </details>
+   
+   <form>
+    <label for="Username">Username</label>
+    <input type="text" name="Username" id="Username" class="form-control">
+
+    <label for="Password">Password</label>
+    <input type="password" name="Password" id="Password" class="form-control">
+   </form>
+    </div>
+
+    <button class="btn btn-sm btn-primary mt-3" onclick="login()">Submit</button>
+
+    <div id="feedback"> </div>
+ <script src="main.js"></script>
+</body>
+</html>
